@@ -1,0 +1,7 @@
+22:55:47 INFO  : Registering command handlers for SDK TCF services
+22:55:48 INFO  : Launching XSCT server: xsct -n -interactive /home/udrc/mpsoc/mpsoc.sdk/temp_xsdb_launch_script.tcl
+22:55:50 INFO  : XSCT server has started successfully.
+22:55:50 INFO  : Successfully done setting XSCT server connection channel  
+22:55:51 INFO  : Successfully done setting SDK workspace  
+22:55:51 INFO  : Processing command line option -hwspec /home/udrc/mpsoc/mpsoc.sdk/design_1_wrapper.hdf.
+22:59:40 INFO  : Example project standalone_bsp_0_xaxidma_example_simple_poll_1 has been created successfully.

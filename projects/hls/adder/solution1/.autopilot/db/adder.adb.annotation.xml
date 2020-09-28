@@ -1,0 +1,5 @@
+<annotationInfo>
+<item  id="14" filename="adder/adder.cpp" linenumber="10" name="icmp_ln10" contextFuncName="adder" moduleName="adder" rtlName="icmp_ln10_fu_78_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="11" fileDirectory="/home/udrc"><\/item>
+<item  id="16" filename="adder/adder.cpp" linenumber="10" name="i" contextFuncName="adder" moduleName="adder" rtlName="i_fu_84_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="15" fileDirectory="/home/udrc"><\/item>
+<item  id="23" filename="adder/adder.cpp" linenumber="12" name="add_ln12" contextFuncName="adder" moduleName="adder" rtlName="add_ln12_fu_90_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="/home/udrc"><\/item>
+</annotationInfo>

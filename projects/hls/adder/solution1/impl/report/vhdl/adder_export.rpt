@@ -1,0 +1,21 @@
+
+
+Implementation tool: Xilinx Vivado v.2019.1
+Project:             adder
+Solution:            solution1
+Device target:       xczu7ev-ffvc1156-2-e
+Report date:         Mon Sep 28 20:37:58 BST 2020
+
+#=== Post-Implementation Resource usage ===
+CLB:             25
+LUT:            127
+FF:             225
+DSP:              0
+BRAM:             0
+SRL:              0
+URAM:             0
+#=== Final timing ===
+CP required:    3.000
+CP achieved post-synthesis:    0.923
+CP achieved post-implementation:    1.734
+Timing met

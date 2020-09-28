@@ -1,0 +1,21 @@
+22:59:40 **** Build of configuration Debug for project standalone_bsp_0_xaxidma_example_simple_poll_1 ****
+make all 
+Building file: ../src/xaxidma_example_simple_poll.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.o" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+Finished building: ../src/xaxidma_example_simple_poll.c
+ 
+Building target: standalone_bsp_0_xaxidma_example_simple_poll_1.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "standalone_bsp_0_xaxidma_example_simple_poll_1.elf"  ./src/xaxidma_example_simple_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: standalone_bsp_0_xaxidma_example_simple_poll_1.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size standalone_bsp_0_xaxidma_example_simple_poll_1.elf  |tee "standalone_bsp_0_xaxidma_example_simple_poll_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  45276	   4632	  23680	  73588	  11f74	standalone_bsp_0_xaxidma_example_simple_poll_1.elf
+Finished building: standalone_bsp_0_xaxidma_example_simple_poll_1.elf.size
+ 
+
+22:59:40 Build Finished (took 561ms)
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="adder" xd:componentRef="adder" xd:initiationInterval="131" xd:clockPeriod="3.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="a[]" xd:originalName="a" xd:direction="in" xd:interfaceRef="a" xd:busTypeRef="axis" xd:arraySize="64" xd:dataWidth="32"/>
+  <xd:arg xd:name="b[]" xd:originalName="b" xd:direction="in" xd:interfaceRef="b" xd:busTypeRef="axis" xd:arraySize="64" xd:dataWidth="32"/>
+  <xd:arg xd:name="c[]" xd:originalName="c" xd:direction="out" xd:interfaceRef="c" xd:busTypeRef="axis" xd:arraySize="64" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="130" xd:worst-case="130" xd:average-case="130"/>
+  <xd:resourceEstimates xd:LUT="268" xd:FF="225" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>
