@@ -35,7 +35,7 @@ It only shows a simple design flow of software/hardware for Xilinx MPSoC. It is 
 
 <img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00009.png" title="admmspx2" width="640" height="480" />
 
-<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_000010.png" title="admmspx2" width="640" height="480" />
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00010.png" title="admmspx2" width="640" height="480" />
 
 ## Xilinx Vivado Design Suit
 
