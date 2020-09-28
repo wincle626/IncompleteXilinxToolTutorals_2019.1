@@ -4,7 +4,7 @@ It only shows a simple design flow of software/hardware for Xilinx MPSoC. It is 
 ## Xilinx High Level Synthesis
 
 1. Create a new project
-<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00000.png" alt="C++" title="admmspx2" width="280" height="180" />
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00000.png" alt="C++" title="admmspx2" width="640" height="480" />
 
 ## Xilinx Vivado Design Suit
 
