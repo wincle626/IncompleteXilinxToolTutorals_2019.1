@@ -37,6 +37,28 @@ It only shows a simple design flow of software/hardware for Xilinx MPSoC. It is 
 
 <img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00010.png" title="admmspx2" width="640" height="480" />
 
+7. Choose the top function from the project setting
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00011.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00012.png" title="admmspx2" width="640" height="480" />
+
+8. Run the C synthesis to generate the VHDL code
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00013.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00014.png" title="admmspx2" width="640" height="480" />
+
+9. Export the RTL to generate the implemented results
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00015.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00016.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00017.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00018.png" title="admmspx2" width="640" height="480" />
+
 ## Xilinx Vivado Design Suit
 
 ## Xilinx Software Development Kit
