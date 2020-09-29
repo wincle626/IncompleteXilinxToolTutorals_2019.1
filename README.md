@@ -19,7 +19,7 @@ This tutorial shows how to create an simple vivado project from scratch using th
 
 ## Xilinx Software Development Kit
 
-This tutorial shows how to do simple data streaming from ARM processor to the custom peripherial IP on FPGA using linux applications. Surely, it could be done in Bare Meta mode but it needs more comprehensive knowledge and skill to combine those low level library and interfaces. 
+This tutorial shows how to do simple data streaming from ARM processor to the custom peripherial IP on FPGA using linux applications by Xilinx SDK. Surely, it could be done in Bare Meta mode but it needs more comprehensive knowledge and skill to combine those low level library and interfaces. 
 
 ### [Linux Application Design](https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/docs/README_SDK.md)
 
