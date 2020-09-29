@@ -1,5 +1,5 @@
 # This is a incomplete Xilinx tool tutorial based on version 2019.1
-It only shows a simple design flow of software/hardware for Xilinx MPSoC. It is INCOMPLETE because the hardware as well as its linux appliation software are both not tested on board. 
+It only shows a simple design flow of software/hardware for Xilinx MPSoC. It is INCOMPLETE because it does not cover everything you need to know about Xilinx design tool. Furthermore, the hardware as well as its linux appliation software in this tutorial are both not tested on board. 
 
 ## Xilinx High Level Synthesis
 
