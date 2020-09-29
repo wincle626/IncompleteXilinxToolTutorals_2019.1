@@ -1,7 +1,9 @@
 # This is a incomplete Xilinx tool tutorial based on version 2019.1
 It only shows a simple design flow of software/hardware for Xilinx MPSoC. It is INCOMPLETE because the hardware as well as its linux appliation software are both not tested on board. 
 
-## [Xilinx High Level Synthesis](https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/docs/README_HLS.md)
+## Xilinx High Level Synthesis
+
+### [HLS Project from Scratch](https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/docs/README_HLS.md)
 
 ## Xilinx Vivado Design Suit
 
