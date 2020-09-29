@@ -81,11 +81,82 @@ It only shows a simple design flow of software/hardware for Xilinx MPSoC. It is 
 
 <img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00005.png" title="admmspx2" width="640" height="480" />
 
-3. Using the target language as VHDL
+3. Use the target language as VHDL
 
 <img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00006.png" title="admmspx2" width="640" height="480" />
 
 <img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00007.png" title="admmspx2" width="640" height="480" />
+
+4. Add VHDL source to the project
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00008.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00009.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00010.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00011.png" title="admmspx2" width="640" height="480" />
+
+4. Create timing constraint source to the project
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00012.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00013.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00014.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00015.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00016.png" title="admmspx2" width="640" height="480" />
+
+5. Synthesis the design 
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00017.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00018.png" title="admmspx2" width="640" height="480" />
+
+6. Implement the design (Place and Route)
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00019.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00020.png" title="admmspx2" width="640" height="480" />
+
+7. Generate the bitstream
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00021.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00022.png" title="admmspx2" width="640" height="480" />
+
+The bitstream generation will not succeed as the adder is a AXIS bus based interface which has too many I/O than the FPGA. The only solution is to craete a customized peripherial and attach it to the ARM core instead of direct I/O from FPGA. So, next we are going to create the AXIS peripherial adder from current Vivado project. 
+
+1. Choose the create and package a new IP from the menu and package current project into a IP repository
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00023.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00024.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00025.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00026.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00027.png" title="admmspx2" width="640" height="480" />
+
+2. Then Vivado will open another project to specify the IP feature
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00028.png" title="admmspx2" width="640" height="480" />
+
+3. Attach the AXIS port to the clock port ( do this for all a, b, c port)
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00036.png" title="admmspx2" width="640" height="480" />
+
+4. Package the IP and close the project
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00029.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00030.png" title="admmspx2" width="640" height="480" />
+
+
+
 
 
 
