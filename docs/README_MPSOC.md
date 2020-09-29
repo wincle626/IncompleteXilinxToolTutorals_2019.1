@@ -59,9 +59,41 @@
 
 <img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00025.png" title="admmspx2" width="640" height="480" />
 
+9. Vivado provide the automatic connection 
 
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00021.png" title="admmspx2" width="640" height="480" />
 
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00022.png" title="admmspx2" width="640" height="480" />
 
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00023.png" title="admmspx2" width="640" height="480" />
+
+10. Setup the On Chip Memory (OCM) address
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00036.png" title="admmspx2" width="640" height="480" />
+
+11. Create the top wrapper 
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00034.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00035.png" title="admmspx2" width="640" height="480" />
+
+12. Generate the block design
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00037.png" title="admmspx2" width="640" height="480" />
+
+13. Synthesis the design and do the place and route as we did for the adder project
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00038.png" title="admmspx2" width="640" height="480" />
+
+14. After the bitstream is generated, export the hardware
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00039.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00040.png" title="admmspx2" width="640" height="480" />
+
+15. Then we can launch the Xilinx SDK to create its linux application for data streaming between ARM processor and custom peripherial "Adder"
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/mpsoc/Kazam_screenshot_00041.png" title="admmspx2" width="640" height="480" />
 
 
 
