@@ -15,3 +15,5 @@ It only shows a simple design flow of software/hardware for Xilinx MPSoC. It is 
 
 ## Xilinx Software Development Kit
 
+### [Linux Application Design](https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/docs/README_SDK.md)
+
