@@ -59,7 +59,35 @@ It only shows a simple design flow of software/hardware for Xilinx MPSoC. It is 
 
 <img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/hls/Kazam_screenshot_00018.png" title="admmspx2" width="640" height="480" />
 
+10. So far we have generated unsigned integer adder in VHDL from C++. By exporting the RTL, the design performance is evaluated through place and route process.
+
 ## Xilinx Vivado Design Suit
+
+1. Create a new vivado project, named "adder", from scratch to use exsiting adder in VHDL. 
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00000.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00001.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00002.png" title="admmspx2" width="640" height="480" />
+
+2. Don't specify the VHDL first
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00003.png" title="admmspx2" width="640" height="480" />
+
+3. Choose the evaluation platform which is ZCU106 board.
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00004.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00005.png" title="admmspx2" width="640" height="480" />
+
+3. Using the target language as VHDL
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00006.png" title="admmspx2" width="640" height="480" />
+
+<img src="https://github.com/wincle626/IncompleteXilinxToolTutorals_2019.1/blob/master/figs/vivado/adder/Kazam_screenshot_00007.png" title="admmspx2" width="640" height="480" />
+
+
 
 ## Xilinx Software Development Kit
 
